@@ -1,19 +1,14 @@
 ### Twitter Data Pipeline
 Este é um projeto de pipeline de dados para extrair e processar tweets do Twitter usando a biblioteca Tweepy e o Apache Airflow. O pipeline é projetado para coletar e armazenar tweets de um usuário específico, realizar transformações nos dados e armazenar os resultados em um arquivo CSV.
 
-## Configuração
-Antes de executar o pipeline, você precisa configurar suas credenciais de acesso ao Twitter no arquivo twitter_etl.py. Certifique-se de ter uma conta de desenvolvedor no Twitter e obtenha suas chaves de acesso e segredos.
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/main/topics/sql/sql.png" alt="MYSQL"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" alt="PYTHON"/></code>
+<code><img height="32" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fairflow.apache.org%2Fdocs%2Fapache-airflow%2F1.10.1%2F&psig=AOvVaw2PN-OYQuqTMD6tYSRfChUE&ust=1696985430566000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJiS68Wh6oEDFQAAAAAdAAAAABAE" alt="HTML"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS"/></code>
 
-```
-python
-Copy code
-chave_acesso = "" 
-segredo_acesso = "" 
-chave_consumidor = ""
-segredo_consumidor = ""
-```
 
-Além disso, configure o ambiente Apache Airflow para executar o DAG dag_twitter.py. Certifique-se de instalar as bibliotecas necessárias listadas em requirements.txt.
+</code>
+
 
 ## Uso
 Execute o Apache Airflow para programar a execução do DAG dag_twitter.py. O DAG extrairá tweets do usuário especificado no arquivo twitter_etl.py e os processará conforme necessário.
