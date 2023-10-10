@@ -4,15 +4,12 @@ Este é um projeto de pipeline de dados para extrair e processar tweets do Twitt
 ## Configuração
 Antes de executar o pipeline, você precisa configurar suas credenciais de acesso ao Twitter no arquivo twitter_etl.py. Certifique-se de ter uma conta de desenvolvedor no Twitter e obtenha suas chaves de acesso e segredos.
 
-'''
-
-python
+'''python
 Copy code
 chave_acesso = "" 
 segredo_acesso = "" 
 chave_consumidor = ""
 segredo_consumidor = ""
-
 '''
 
 Além disso, configure o ambiente Apache Airflow para executar o DAG dag_twitter.py. Certifique-se de instalar as bibliotecas necessárias listadas em requirements.txt.
